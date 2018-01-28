@@ -39,6 +39,6 @@ function wheelslide(e) {
 if (e.deltaY > 0) {
   if (moveSecondText.style.left == '-500px' || moveSecondText.style.left == '') moveSecondText.style.left = '0px';
 } else {
-  if (moveSecondText.style.left == '0px') moveSecondText.style.left == '-500px';
+  if (moveSecondText.style.left == '0px') moveSecondText.style.left = '-500px';
 }
 }
