@@ -36,9 +36,20 @@ body {
     -webkit-transition: 2s ease-in-out;
 }
 
+.wrapper{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#first-text, #second-text h1{
+    font-family: 'Merriweather', serif;
+}
+
 #first-text {
     position: relative;
-    left: 0px;
+    left: 50px;
+    top: 200px;
     transition: 2s ease-in-out;
     -moz-transition: 2s ease-in-out;
     -webkit-transition: 2s ease-in-out;
@@ -46,7 +57,8 @@ body {
 
 #second-text {
     position: relative;
-    left: -500px;
+    left: -2000px;
+    top: -150px;
     transition: 2s ease-in-out;
     -moz-transition: 2s ease-in-out;
     -webkit-transition: 2s ease-in-out;
@@ -113,4 +125,12 @@ body {
 
 img {
     height: 100vh;
+}
+
+.btn{
+    padding: 5px 30px!important;
+}
+
+.left-imgs{
+
 }

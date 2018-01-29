@@ -28,17 +28,17 @@ function wheelslide(e) {
 
   // first text 
   if (e.deltaY > 0) {
-    if (moveFirstText.style.left == '0px' || moveFirstText.style.left == '') moveFirstText.style.left = '-500px';
+    if (moveFirstText.style.left == '50px' || moveFirstText.style.left == '') moveFirstText.style.left = '-2000px';
   } else {
-    if (moveFirstText.style.left == '-500px') moveFirstText.style.left = '0px';
+    if (moveFirstText.style.left == '-2000px') moveFirstText.style.left = '50px';
   }
 
 
 //second text
 
 if (e.deltaY > 0) {
-  if (moveSecondText.style.left == '-500px' || moveSecondText.style.left == '') moveSecondText.style.left = '0px';
+  if (moveSecondText.style.left == '-2000px' || moveSecondText.style.left == '') moveSecondText.style.left = '50px';
 } else {
-  if (moveSecondText.style.left == '0px') moveSecondText.style.left = '-500px';
+  if (moveSecondText.style.left == '50px') moveSecondText.style.left = '-2000px';
 }
 }
