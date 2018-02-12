@@ -7,7 +7,7 @@ function wheelslide(e) {
   var moveSecond = document.getElementById('move');
   var moveFirstText = document.getElementById('first-text');
   var moveSecondText = document.getElementById('second-text');
-
+  var num1 = document.getElementById('num1');
 
   // scrolling downward first image
   if (e.deltaY > 0) {

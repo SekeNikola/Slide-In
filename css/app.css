@@ -131,6 +131,11 @@ img {
     padding: 5px 30px!important;
 }
 
-.left-imgs{
-
+.num{
+font-size: 700px;
+position: absolute;
+top: -500px;
+left: 550px;
+opacity: .5;
+font-family: 'Merriweather', serif;
 }
